@@ -91,7 +91,6 @@ Output:
 For this build type, share:
 - the entire `dist\AimployCMS\` folder (zip this folder)
 
-Do not share only `AimployCMS.exe` from inside that folder, because it depends on bundled files in `_internal`.
 
 ## API Endpoints
 
