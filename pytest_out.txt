@@ -1,0 +1,31 @@
+============================= test session starts =============================
+platform win32 -- Python 3.11.9, pytest-9.0.2, pluggy-1.6.0 -- C:\Users\amaan\AppData\Local\Programs\Python\Python311\python.exe
+cachedir: .pytest_cache
+rootdir: C:\AIMPLOY\candidate_management_system
+plugins: anyio-4.12.1
+collecting ... collected 3 items
+
+test_api.py::test_create_candidate PASSED                                [ 33%]
+test_api.py::test_read_candidates PASSED                                 [ 66%]
+test_api.py::test_upload_resume PASSED                                   [100%]
+
+============================== warnings summary ===============================
+database.py:15
+  C:\AIMPLOY\candidate_management_system\database.py:15: MovedIn20Warning: The ``declarative_base()`` function is now available as sqlalchemy.orm.declarative_base(). (deprecated since: 2.0) (Background on SQLAlchemy 2.0 at: https://sqlalche.me/e/b8d9)
+    Base = declarative_base()
+
+..\..\Users\amaan\AppData\Local\Programs\Python\Python311\Lib\site-packages\pydantic\_internal\_config.py:291
+  C:\Users\amaan\AppData\Local\Programs\Python\Python311\Lib\site-packages\pydantic\_internal\_config.py:291: PydanticDeprecatedSince20: Support for class-based `config` is deprecated, use ConfigDict instead. Deprecated in Pydantic V2.0 to be removed in V3.0. See Pydantic V2 Migration Guide at https://errors.pydantic.dev/2.9/migration/
+    warnings.warn(DEPRECATION_MESSAGE, DeprecationWarning)
+
+..\..\Users\amaan\AppData\Local\Programs\Python\Python311\Lib\site-packages\pydantic\_internal\_config.py:341
+  C:\Users\amaan\AppData\Local\Programs\Python\Python311\Lib\site-packages\pydantic\_internal\_config.py:341: UserWarning: Valid config keys have changed in V2:
+  * 'orm_mode' has been renamed to 'from_attributes'
+    warnings.warn(message, UserWarning)
+
+..\..\Users\amaan\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyPDF2\__init__.py:21
+  C:\Users\amaan\AppData\Local\Programs\Python\Python311\Lib\site-packages\PyPDF2\__init__.py:21: DeprecationWarning: PyPDF2 is deprecated. Please move to the pypdf library instead.
+    warnings.warn(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================== 3 passed, 4 warnings in 116.33s (0:01:56) ==================

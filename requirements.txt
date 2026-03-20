@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+sqlalchemy
+PyPDF2
+python-multipart
+pydantic
+pytest
+httpx
+email-validator
